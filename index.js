@@ -2,7 +2,7 @@
 
 var exec = require('child_process').exec;
 
-module.exports = function(cmd) {
+module.exports = function (cmd) {
   exec(cmd, function (err, stdout, stderr) {
     if (err !== null) {
       if (stdout.length > 0) {

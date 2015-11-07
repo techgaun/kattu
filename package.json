@@ -1,6 +1,6 @@
 {
   "name": "kattu",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Run commands quietly unless the command fails",
   "license": "MIT",
   "repository": "techgaun/kattu",
@@ -14,7 +14,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "xo --space 2 && ava"
+    "test": "xo --space 2 index.js"
   },
   "files": [
     "index.js",
