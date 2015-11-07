@@ -3,6 +3,10 @@
 > Run commands quietly unless the command fails
 
 
+## Usage
+
+I often wish to run commands but hide the output unless the command fails. In such cases, I would love to see both stdout and stderr so that I can analyze the issues. Mostly I use this while doing sysadmin stuffs.
+
 ## Install
 
 ```
